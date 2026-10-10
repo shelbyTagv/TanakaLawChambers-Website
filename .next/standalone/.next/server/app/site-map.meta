@@ -3,5 +3,13 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/site-map/layout,_N_T_/site-map/page,_N_T_/site-map/"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/53dae1e890654790dce561120835d71199b89d71f0a0fe00244c5fe50a641339/$/site-map",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/site-map/page"
+    },
+    "isFallback": false
   }
 }

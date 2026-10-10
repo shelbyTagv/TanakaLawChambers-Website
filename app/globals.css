@@ -272,7 +272,7 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
 .section-heading {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   gap: 1rem;
   margin: 1.5rem 0 1rem;
 }
