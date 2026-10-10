@@ -4,14 +4,14 @@
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/contact-us/page": "app/contact-us/page.js",
   "/about-us/page": "app/about-us/page.js",
-  "/cookie-policy/page": "app/cookie-policy/page.js",
   "/disclaimer/page": "app/disclaimer/page.js",
+  "/cookie-policy/page": "app/cookie-policy/page.js",
   "/news-insights/[slug]/page": "app/news-insights/[slug]/page.js",
-  "/news-insights/page": "app/news-insights/page.js",
   "/our-team/page": "app/our-team/page.js",
+  "/news-insights/page": "app/news-insights/page.js",
   "/privacy-policy/page": "app/privacy-policy/page.js",
-  "/site-map/page": "app/site-map/page.js",
   "/services/page": "app/services/page.js",
-  "/services/[slug]/page": "app/services/[slug]/page.js",
-  "/page": "app/page.js"
+  "/site-map/page": "app/site-map/page.js",
+  "/page": "app/page.js",
+  "/services/[slug]/page": "app/services/[slug]/page.js"
 }

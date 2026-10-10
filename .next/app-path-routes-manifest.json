@@ -4,14 +4,14 @@
   "/sitemap.xml/route": "/sitemap.xml",
   "/contact-us/page": "/contact-us",
   "/about-us/page": "/about-us",
-  "/cookie-policy/page": "/cookie-policy",
   "/disclaimer/page": "/disclaimer",
+  "/cookie-policy/page": "/cookie-policy",
   "/news-insights/[slug]/page": "/news-insights/[slug]",
-  "/news-insights/page": "/news-insights",
   "/our-team/page": "/our-team",
+  "/news-insights/page": "/news-insights",
   "/privacy-policy/page": "/privacy-policy",
-  "/site-map/page": "/site-map",
   "/services/page": "/services",
-  "/services/[slug]/page": "/services/[slug]",
-  "/page": "/"
+  "/site-map/page": "/site-map",
+  "/page": "/",
+  "/services/[slug]/page": "/services/[slug]"
 }

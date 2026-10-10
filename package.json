@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run validate:content && next build",
+    "build": "npm run validate:content && next build && node scripts/prepare-standalone.mjs",
     "start": "node .next/standalone/server.js",
     "lint": "next lint",
     "validate:content": "tsx scripts/validate-content.ts"
