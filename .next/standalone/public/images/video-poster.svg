@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
-  <rect width="960" height="540" fill="#e9e0d3"/>
-  <rect x="40" y="40" width="880" height="460" rx="26" fill="#1b1d22" opacity="0.9"/>
-  <circle cx="480" cy="270" r="90" fill="#d8262c" opacity="0.9"/>
-  <path d="M458 220 L550 270 L458 320 Z" fill="#fff"/>
-  <text x="480" y="430" text-anchor="middle" font-size="40" font-family="Arial, sans-serif" fill="#f9f5f2">Video coming soon</text>
-</svg>
