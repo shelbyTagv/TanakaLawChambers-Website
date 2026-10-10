@@ -1,0 +1,26 @@
+{
+  "name": "tanaka-law-chambers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate:content && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate:content": "tsx scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "next": "15.5.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.10",
+    "@types/react": "19.1.1",
+    "@types/react-dom": "19.1.1",
+    "eslint": "9.26.0",
+    "eslint-config-next": "15.5.0",
+    "tsx": "4.19.2",
+    "typescript": "5.8.3"
+  }
+}
