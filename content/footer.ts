@@ -34,9 +34,7 @@ export const footer: FooterConfig = {
     {
       heading: 'Follow Us',
       links: [
-        { label: 'Facebook', href: 'https://facebook.com' },
-        { label: 'X', href: 'https://x.com' },
-        { label: 'LinkedIn', href: 'https://linkedin.com' },
+        { label: 'Facebook', href: 'https://www.facebook.com/share/1FbfCPoaoj/' },
       ],
     },
   ],

@@ -313,6 +313,9 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
   margin-bottom: 1rem;
 }
 
+.team-section {
+  margin-top: 2rem;
+}
 .team-frame {
   width: fit-content;
   max-width: 100%;
@@ -333,6 +336,17 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
   flex-direction: column;
   gap: 0.2rem;
   margin-top: 0.9rem;
+}
+.team-section .section-heading {
+  margin-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(255,255,255,0.18);
+  padding-bottom: 0.6rem;
+}
+.team-section .section-heading h2 {
+  font-size: clamp(1.4rem, 1.8vw, 2rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-strong, #b31c2e);
 }
 
 .form-grid {

@@ -8,17 +8,17 @@ export const settings: SiteSettings = {
   trustLine: 'Trusted. Diligent. Determined.',
   logo: '/images/logo.jpeg',
   siteUrl: 'https://example.com', // PLACEHOLDER: set to final production URL
-  phone: '+263 00 000 0000', // PLACEHOLDER
-  email: 'info@example.com', // PLACEHOLDER
-  whatsappNumber: '+263000000000', // PLACEHOLDER
+  phone: '+263 2922 70278',
+  email: 'tanakalawchambers@gmail.com',
+  whatsappNumber: '+263 776 425 580',
   whatsappPrefill: 'Hello Tanaka Law Chambers, I would like to enquire about legal services.',
-  address: 'Suite 415 4th floor York House Cnr Hebert Chitepo and 8th Avenue, Bulawayo, Zimbabwe', // PLACEHOLDER
-  mapEmbed: 'https://maps.google.com/maps?q=Harare%20Zimbabwe&t=&z=13&ie=UTF8&iwloc=&output=embed',
+  address: 'Suite 415, 4th Floor, York House, Corner Herbert Chitepo Street and 8th Avenue, Bulawayo, Zimbabwe.',
+  mapEmbed: 'https://maps.google.com/maps?q=Suite%20415%2C%204th%20Floor%2C%20York%20House%2C%20Corner%20Herbert%20Chitepo%20Street%20and%208th%20Avenue%2C%20Bulawayo%2C%20Zimbabwe&t=&z=17&ie=UTF8&iwloc=&output=embed',
   officeHours: 'Mon - Fri: 8:00 AM - 5:00 PM',
   social: {
-    facebook: 'https://www.facebook.com/profile.php?id=100063715671536',
-    x: 'https://x.com',
-    linkedin: 'https://linkedin.com',
+    facebook: 'https://www.facebook.com/share/1FbfCPoaoj/',
+    x: '',
+    linkedin: '',
   },
   videoUrl: '',
   videoPoster: 'https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=80',
