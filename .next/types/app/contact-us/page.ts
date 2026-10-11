@@ -1,8 +1,8 @@
-// File: /home/shelby/Desktop/tanakaLawChambers_Vercel/app/our-team/page.tsx
-import * as entry from '../../../../app/our-team/page.js'
+// File: /home/shelby/Desktop/tanakaLawChambers_Vercel/app/contact-us/page.tsx
+import * as entry from '../../../../app/contact-us/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/our-team/page.js')
+type TEntry = typeof import('../../../../app/contact-us/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
