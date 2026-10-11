@@ -317,25 +317,32 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
   margin-top: 2rem;
 }
 .team-frame {
-  width: fit-content;
-  max-width: 100%;
-  padding: 10px;
-  border: 1px solid rgba(255,255,255,0.75);
-  border-radius: 22px;
-  background: rgba(255,255,255,0.2);
-  box-shadow: var(--shadow);
+  width: min(220px, 100%);
+  margin: 0 auto;
+  padding: 8px;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.18);
+  box-shadow: 0 10px 26px rgba(15, 20, 26, 0.08);
 }
 .team-frame img {
   width: 100%;
-  height: auto;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
   display: block;
-  border-radius: 14px;
+  border-radius: 12px;
+}
+.team-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .team-card .meta {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  margin-top: 0.9rem;
+  margin-top: 0.8rem;
 }
 .team-section .section-heading {
   margin-bottom: 0.9rem;
