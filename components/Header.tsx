@@ -47,7 +47,7 @@ export function Header() {
               aria-label="Search site"
               type="search"
               value={query}
-              placeholder="Search services, team, news"
+              placeholder="Search"
               onChange={(event) => setQuery(event.target.value)}
             />
             {query && results.length > 0 && (
