@@ -1,7 +1,7 @@
 import type { BackgroundRecord } from './types';
 
 export const backgrounds: BackgroundRecord[] = [
-  { id: 'home', name: 'Home', image: '/images/bg-home.svg', focusPosition: '76% 55%', alt: 'Courtroom interior with bench and desk' },
+  { id: 'home', name: 'Home', image: '/images/bg-home.jpeg', focusPosition: '76% 55%', alt: 'Wooden judge gavel resting on a law book with open space on the left' },
   { id: 'about', name: 'About Us', image: '/images/bg-about.svg', focusPosition: '50% 50%', alt: 'Warm boardroom interior' },
   { id: 'services', name: 'Services', image: '/images/bg-services.svg', focusPosition: '50% 45%', alt: 'Law library with leather-bound books' },
   { id: 'team', name: 'Our Team', image: '/images/bg-team.svg', focusPosition: '50% 50%', alt: 'Modern office corridor' },

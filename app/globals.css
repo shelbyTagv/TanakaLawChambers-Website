@@ -61,7 +61,7 @@ button, input, select, textarea { font: inherit; }
 .page-background {
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
 }
 .page-background::before {
   content: '';
@@ -91,19 +91,23 @@ button, input, select, textarea { font: inherit; }
 
 .site-header {
   position: sticky;
-  top: 1rem;
+  top: 0;
   z-index: 20;
-  max-width: var(--page-max);
-  margin: 1rem auto 0;
-  padding: 0.7rem 1rem;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0.9rem 0;
+  border-radius: 0;
 }
 
 .nav-shell {
+  width: min(100%, var(--page-max));
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1.2rem;
 }
 
 .nav-links {
@@ -224,6 +228,15 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
   margin-top: 1.25rem;
   color: var(--ink);
   font-weight: 700;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  color: #111111;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  max-width: 62ch;
+  font-weight: 500;
 }
 
 .video-panel {
@@ -357,9 +370,10 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
   padding: 1.25rem 0 2rem;
 }
 .footer-shell {
-  max-width: var(--page-max);
+  width: min(100%, var(--page-max));
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.2rem 1.3rem 1rem;
+  border-radius: 0;
 }
 .footer-top, .footer-bottom {
   display: flex;

@@ -25,7 +25,7 @@ export function Header() {
     <header className="site-header glass-panel">
       <div className="nav-shell">
         <Link href="/" className="brand-logo" aria-label="Tanaka Law Chambers home">
-          <Image src="/images/logo.svg" alt="Tanaka Law Chambers logo" width={200} height={70} priority />
+          <Image src="/images/logo.jpeg" alt="Tanaka Law Chambers logo" width={200} height={70} priority />
         </Link>
 
         <nav className="nav-links" aria-label="Primary navigation">

@@ -21,6 +21,10 @@ function assert(condition: unknown, message: string): asserts condition {
 }
 
 function ensureFileExists(filePath: string) {
+  if (filePath.startsWith('http://') || filePath.startsWith('https://')) {
+    return;
+  }
+
   const relative = filePath.replace(/^\/+/, '');
   const resolved = path.join(publicDir, relative);
   assert(fs.existsSync(resolved), `Missing required asset: ${filePath}`);

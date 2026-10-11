@@ -26,6 +26,9 @@ export default function HomePage() {
             <a href={`https://wa.me/${settings.whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(settings.whatsappPrefill)}`} target="_blank" rel="noreferrer" className="button-secondary">Chat on WhatsApp</a>
           </div>
           <div className="trust-line">{settings.trustLine}</div>
+          <p className="hero-description">
+            Tanaka Law Chambers is a leading Zimbabwean commercial law firm with a regional footprint and a global outlook. We provide sophisticated legal solutions to businesses, investors, financial institutions, and public sector clients, combining deep local market knowledge with internationally informed legal expertise. Our firm possesses an in-depth understanding of Zimbabwe&apos;s legal, regulatory, and commercial landscape, enabling us to deliver practical, strategic, and commercially focused legal advice that supports clients in navigating both domestic and cross-border transactions with confidence.
+          </p>
         </div>
 
         <div className="video-panel glass-panel">
@@ -58,9 +61,9 @@ export default function HomePage() {
           </div>
           <div>
             <h2>Managing Partner</h2>
-            <p>{managingPartner.quote}</p>
             <h3>{managingPartner.name}</h3>
             <p>{managingPartner.role}</p>
+            <p>{managingPartner.quote}</p>
             <Image src="/images/the-legal-choice.svg" alt="The Legal Choice" width={280} height={80} />
             <div className="hero-actions">
               <Link href="/our-team" className="button-primary">Meet the team</Link>

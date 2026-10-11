@@ -3,15 +3,15 @@
   "/robots.txt/route": "/robots.txt",
   "/sitemap.xml/route": "/sitemap.xml",
   "/contact-us/page": "/contact-us",
-  "/cookie-policy/page": "/cookie-policy",
   "/about-us/page": "/about-us",
   "/disclaimer/page": "/disclaimer",
-  "/news-insights/[slug]/page": "/news-insights/[slug]",
   "/news-insights/page": "/news-insights",
+  "/cookie-policy/page": "/cookie-policy",
   "/our-team/page": "/our-team",
+  "/news-insights/[slug]/page": "/news-insights/[slug]",
   "/privacy-policy/page": "/privacy-policy",
+  "/page": "/",
   "/services/page": "/services",
-  "/site-map/page": "/site-map",
   "/services/[slug]/page": "/services/[slug]",
-  "/page": "/"
+  "/site-map/page": "/site-map"
 }

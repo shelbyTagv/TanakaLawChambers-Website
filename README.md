@@ -58,7 +58,7 @@ The following items are placeholders and must be replaced by the client before l
 - `siteUrl`: `https://example.com` in `/content/settings.ts` — PLACEHOLDER
 - Video URL: empty string in `/content/settings.ts` — placeholder until supplied
 - Contact social links in `/content/settings.ts` — placeholder URLs
-- High-resolution photography for home/about/services/team/news/contact backgrounds
+- High-resolution photography for about/services/team/news/contact backgrounds
 - Team portraits for each lawyer
 - Managing partner portrait for Dr. Tanaka Muganyi
 - Legal script logo image for “The Legal Choice”
@@ -67,7 +67,7 @@ The following items are placeholders and must be replaced by the client before l
 
 ## Asset notes
 
-The project uses local placeholder SVGs in `/public/images` so the site can build without client-supplied media. The home page background is intentionally a placeholder and should be replaced with a photograph at least 2400 px wide for best performance and visual quality.
+The home background is a 5000 × 2563 px photo by [Sasun Bughdaryan on Unsplash](https://unsplash.com/photos/a-wooden-gavel-rests-on-a-closed-book-NB1dUts3ROU), used under the Unsplash License. It places the gavel on the right and leaves open space on the left for the hero panel. Other local placeholder SVGs in `/public/images` should be replaced with approved client photography before launch.
 
 ## Summary of what was built
 
